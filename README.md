@@ -8,22 +8,16 @@ Link to live site: [https://hribu.github.io/Restaurant-Little-Lemon-HTML-and-CSS
 
 This project serves as a portfolio piece demonstrating proficiency in HTML and CSS skills, developed as part of a larger web development course.
 
-
 **Key Features**
 
 * **Responsive Design:** The website adapts seamlessly to different screen sizes (desktops, tablets, and mobile devices).
 * **Clean and User-Friendly Navigation:** The navigation is intuitive and easy for visitors to find what they need.
 * **Visually Appealing Design:**  The colors, typography, and imagery create a pleasant aesthetic that aligns with the restaurant's brand.
 
-
 **Technologies Used**
 
 * HTML5 (Semantic structure)
 * CSS3 (Styling, layout, animations)
-
-
-
-
 
 **Project Overview**
 
@@ -33,13 +27,3 @@ This repository contains the complete codebase (HTML, CSS) for the Restaurant Li
 * **CSS Styling:** Customizing fonts, colors, backgrounds, and overall visual presentation.
 * **Layout Techniques:** Using Flexbox for flexible and adaptable layouts.
 * **Responsive Design:** Ensuring optimal viewing across various screen sizes (desktops, tablets, phones) through media queries.
-
-
-
-
-
-
-
-
-
-
