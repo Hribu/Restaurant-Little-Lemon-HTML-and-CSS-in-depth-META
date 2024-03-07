@@ -1,0 +1,212 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: -20px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  header > img  {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+/*------------------------navbar section---------------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: lightblue;
+  }
+
+  nav ul {
+    display: flex;
+    flex: 1;
+    background: #6b6d70;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+    padding: 15px 20px;
+  }
+
+  nav ul li {
+    margin-left: 50px;
+
+  }
+
+
+/*-----------------------banner section------------------------*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner > article {
+    flex: 1;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ), url(../img/restaurant.jpg);
+    justify-content: center;
+    align-items: center;
+    color: #ebd7d7;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+
+    height: 200px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+
+
+}
+
+.banner h1 {
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: 45px;
+  }
+
+
+  .banner p {
+    text-align: left;
+    font-size: 25px;
+  }
+
+
+/*--------------------------boxes section--------------------------*/
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxes h2 {
+    margin-bottom: 5px;
+  }
+
+  .boxes img {
+    margin-top: 25px;
+  }
+
+  .boxes a {
+    text-decoration: none;
+  }
+
+  article {
+    flex: 1;
+    background: #6b6d70;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+    padding: 15px 20px;
+  }
+
+  article:hover {
+    box-shadow: 5px 0px 25px black;
+  }
+
+
+
+/*--------------------------footer section--------------------------*/
+
+footer {
+    display: flex;
+    justify-content: left;
+
+}
+
+footer div {
+    flex: 1;
+}
+
+div > img {
+    width: 46px;
+    margin-left: 20px ;
+}
+
+  div > p {
+    text-align: right;
+    font-size: 20px;
+  }
+/*--------------------------responsive design--------------------------*/
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .banner, .boxes {
+        flex-direction: column;
+    }
+
+    article, .banner > article {
+        flex: auto;
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 18px;
+    }
+    header > img {
+        width: 90%;
+    }
+}
